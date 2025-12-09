@@ -9,7 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://chiyambi.org" # the base hostname & protocol for your site
 
 instagram_username: chiyambi.community.foundation
-facebook_username:  # TODO
+facebook_username: Chiyambi_Community_Foundation
+facebook_url: "https://www.facebook.com/profile.php?id=61573405497495"
 
 # Build settings
 markdown: kramdown
