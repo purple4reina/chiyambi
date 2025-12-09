@@ -377,6 +377,12 @@ body {
 
 header.header-small {
   min-height: 30%;
+  background-position: center -80px;
+  .header-content {
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
+    transform: translateY(-10%);
+  }
 }
 
 .blog {
