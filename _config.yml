@@ -1,0 +1,15 @@
+# https://github.com/volny/creative-theme-jekyll
+
+# Site settings
+title: Chiyambi Community Foundation
+email: info@chiyambi.org
+description: Empowering Communities, Building Futures
+destination: docs/
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://chiyambi.org" # the base hostname & protocol for your site
+
+instagram_username: chiyambi.community.foundation
+facebook_username:  # TODO
+
+# Build settings
+markdown: kramdown
