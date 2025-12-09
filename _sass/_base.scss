@@ -156,7 +156,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
+    background-position: top;
     background-image: url('../img/header.jpg');
     background-color: grey;
     background-blend-mode: soft-light;
