@@ -8,17 +8,6 @@ Make a donation to support the Chiyambi Foundation and help provide
 life-changing opportunities for those in need. All contributions are 100% tax
 deductible and go directly to support our programs and the people we serve.
 
-## DonorSee
-
-You can make a donation to the Chiyambi Foundation using DonorSee. Click the
-button below to view all our open projects.
-
-[Donate with DonorSee](https://donorsee.com/chiyambi?share=1){:target="_blank"}
-
-<!--
-Fees: 2.99% + $0.39 per transaction
--->
-
 ## PayPal
 
 [Click here](https://www.paypal.com/donate/?hosted_button_id=QLPU665AR4XKY){:target="_blank"}
