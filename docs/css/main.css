@@ -434,6 +434,11 @@ header.header-small .header-content {
   margin-top: 50px;
   color: black;
 }
+.blog h3 {
+  font-size: 22px;
+  margin-top: 35px;
+  color: black;
+}
 .blog .blog-byline p {
   font-size: 15px;
 }
@@ -471,6 +476,23 @@ header.header-small .header-content {
   font-weight: 600;
   font-size: 14px;
   color: #e3c62d;
+}
+.blog .project-timeline {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 0 auto 20px;
+  max-width: 500px;
+}
+.blog .project-timeline li {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.blog .project-timeline .timeline-date {
+  display: inline-block;
+  font-weight: 600;
+  color: #e3c62d;
+  margin-right: 6px;
 }
 .blog .project-videos {
   text-align: center;

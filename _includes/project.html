@@ -11,6 +11,13 @@
         <span class="project-category">{{ page.category }}</span>
       </div>
     {%- endif %}
+    {%- if page.timeline %}
+      <ul class="container project-timeline">
+        {%- for milestone in page.timeline %}
+          <li><span class="timeline-date">{{ milestone.date }}</span> {{ milestone.label }}</li>
+        {%- endfor %}
+      </ul>
+    {%- endif %}
     <div class="container blog-content">
       {{ content }}
     </div>

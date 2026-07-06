@@ -395,6 +395,11 @@ header.header-small {
     margin-top: 50px;
     color: $theme-green;
   }
+  h3 {
+    font-size: 22px;
+    margin-top: 35px;
+    color: $theme-green;
+  }
   .blog-byline {
     p {
       font-size: 15px;
@@ -435,6 +440,23 @@ header.header-small {
       font-weight: 600;
       font-size: 14px;
       color: $theme-dark;
+    }
+  }
+  .project-timeline {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto 20px;
+    max-width: 500px;
+    li {
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+    .timeline-date {
+      display: inline-block;
+      font-weight: 600;
+      color: $theme-dark;
+      margin-right: 6px;
     }
   }
   .project-videos {
