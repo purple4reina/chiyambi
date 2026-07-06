@@ -461,5 +461,44 @@ header.header-small .header-content {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+.blog .project-categories {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.blog .project-categories .project-category {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #e3c62d;
+}
+.blog .project-videos {
+  text-align: center;
+}
+.blog .project-videos .project-video {
+  margin: 20px auto;
+  max-width: 500px;
+}
+.blog .project-videos .project-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.blog .project-videos .project-video .project-video-caption {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.blog .project-cta {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.blog .project-cta a {
+  color: #e3c62d;
+}
+.blog .project-cta a:hover {
+  color: #c3a81a;
+}
 
 /*# sourceMappingURL=main.css.map */

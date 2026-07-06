@@ -426,4 +426,43 @@ header.header-small {
     font-size: 13px;
     text-align: center;
   }
+  .project-categories {
+    text-align: center;
+    margin-bottom: 10px;
+    .project-category {
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      color: $theme-dark;
+    }
+  }
+  .project-videos {
+    text-align: center;
+    .project-video {
+      margin: 20px auto;
+      max-width: 500px;
+      video {
+        width: 100%;
+        height: auto;
+        display: block;
+        border: 3px solid black;
+        border-radius: 5px;
+      }
+      .project-video-caption {
+        font-size: 13px;
+        margin-top: 5px;
+      }
+    }
+  }
+  .project-cta {
+    margin-top: 30px;
+    font-size: 20px;
+    a {
+      color: $theme-dark;
+      &:hover {
+        color: darken($theme-dark, 10%);
+      }
+    }
+  }
 }
