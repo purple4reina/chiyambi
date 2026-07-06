@@ -21,23 +21,6 @@
     <div class="container blog-content">
       {{ content }}
     </div>
-    {%- if page.image %}
-      <div class="conatiner blog-image">
-        <img src="{{ page.image }}" alt="{{ page.title }}">
-      </div>
-    {%- endif %}
-    {%- if page.videos %}
-      <div class="container project-videos">
-        {%- for video in page.videos %}
-          <div class="project-video">
-            <video src="{{ video.src }}" controls preload="metadata"></video>
-            {%- if video.caption %}
-              <p class="project-video-caption">{{ video.caption }}</p>
-            {%- endif %}
-          </div>
-        {%- endfor %}
-      </div>
-    {%- endif %}
     <div class="container project-cta text-center">
       <p><a href="/donate.html">Support more stories like this one</a></p>
     </div>

@@ -433,12 +433,13 @@ header.header-small {
   }
   .project-categories {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     .project-category {
       display: inline-block;
       text-transform: uppercase;
-      font-weight: 600;
-      font-size: 14px;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: 1.5px;
       color: $theme-dark;
     }
   }
@@ -446,35 +447,35 @@ header.header-small {
     list-style: none;
     padding: 0;
     text-align: center;
-    margin: 0 auto 20px;
-    max-width: 500px;
+    margin: 0 auto 30px;
+    max-width: 600px;
     li {
-      font-size: 15px;
-      margin-bottom: 4px;
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 8px;
     }
     .timeline-date {
       display: inline-block;
-      font-weight: 600;
+      font-weight: 700;
+      font-size: 18px;
       color: $theme-dark;
-      margin-right: 6px;
+      margin-right: 8px;
     }
   }
-  .project-videos {
+  .project-video {
     text-align: center;
-    .project-video {
-      margin: 20px auto;
-      max-width: 500px;
-      video {
-        width: 100%;
-        height: auto;
-        display: block;
-        border: 3px solid black;
-        border-radius: 5px;
-      }
-      .project-video-caption {
-        font-size: 13px;
-        margin-top: 5px;
-      }
+    margin: 20px auto;
+    max-width: 500px;
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 3px solid black;
+      border-radius: 5px;
+    }
+    .project-video-caption {
+      font-size: 13px;
+      margin-top: 5px;
     }
   }
   .project-cta {

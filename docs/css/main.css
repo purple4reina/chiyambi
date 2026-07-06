@@ -468,47 +468,48 @@ header.header-small .header-content {
 }
 .blog .project-categories {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .blog .project-categories .project-category {
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1.5px;
   color: #e3c62d;
 }
 .blog .project-timeline {
   list-style: none;
   padding: 0;
   text-align: center;
-  margin: 0 auto 20px;
-  max-width: 500px;
+  margin: 0 auto 30px;
+  max-width: 600px;
 }
 .blog .project-timeline li {
-  font-size: 15px;
-  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 8px;
 }
 .blog .project-timeline .timeline-date {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 18px;
   color: #e3c62d;
-  margin-right: 6px;
+  margin-right: 8px;
 }
-.blog .project-videos {
+.blog .project-video {
   text-align: center;
-}
-.blog .project-videos .project-video {
   margin: 20px auto;
   max-width: 500px;
 }
-.blog .project-videos .project-video video {
+.blog .project-video video {
   width: 100%;
   height: auto;
   display: block;
   border: 3px solid black;
   border-radius: 5px;
 }
-.blog .project-videos .project-video .project-video-caption {
+.blog .project-video .project-video-caption {
   font-size: 13px;
   margin-top: 5px;
 }

@@ -11,29 +11,49 @@ timeline:
     label: "The project was fully funded within a day"
   - date: "October 2025"
     label: "Royd received his new wheelchair"
-videos:
-  - src: /video/royd/project.mp4
-    caption: "Royd's story"
-  - src: /video/royd/reaction.mp4
-    caption: "Royd receives his new wheelchair"
 ---
 
 Royd is a devoted husband and father living in the Katete region of Eastern
-Zambia. For years, his broken wheelchair confined him to his home, leaving
-him unable to help his wife care for their family or venture out into the
-community.
+Zambia. He faces daily challenges due to his immobility: his previous
+wheelchair was beyond repair, leaving him unable to venture outside his own
+home or help his wife search for food and other essential supplies for their
+family. Being confined to his house didn't just limit Royd physically — it
+weighed on his sense of purpose and his role as a husband and father, as he
+watched the burden of providing for the household fall entirely on his
+wife's shoulders while he was unable to help.
+
+<div class="blog-image">
+  <img src="/img/portfolio/royd.png" alt="Royd">
+</div>
 
 ### The Process
 
-Once Royd's story was shared, our supporters funded the full cost of a new
-wheelchair in less than a day. Our team purchased the wheelchair and
-delivered it directly to Royd, then followed up with the supporters who made
-it possible to share the news and say thank you on behalf of the whole
-community.
+Royd's story resonated the moment it was shared: our supporters funded the
+full cost of a new wheelchair in less than a day. From there, our team
+purchased the wheelchair and made the trip to deliver it directly to Royd's
+home in Katete, then circled back to the community of supporters who made
+it possible to share the news and pass along the family's thanks.
+
+<div class="project-video">
+  <video src="/video/royd/project.mp4" controls preload="metadata"></video>
+  <p class="project-video-caption">Royd's story</p>
+</div>
 
 ### The Results
 
-Watch below as Royd takes his new wheelchair for the first time — a moment
-of pure joy for him and his family. With his mobility restored, Royd is now
-able to help his wife care for their household and take part in community
-life again.
+A new wheelchair represents so much more than mobility for Royd — it's the
+restoration of a father's role, a husband's partnership, and a man's
+independence. With his mobility restored, Royd can once again get out of
+the house to help his wife search for food and supplies, easing a burden
+that had rested on her alone for far too long, and share in the daily life
+of his household and community again.
+
+Watch below as Royd takes his new wheelchair for a spin for the first time.
+His tears of gratitude in the video say what words can't: a physical
+limitation doesn't have to define a person's potential, dignity, or role in
+their own family.
+
+<div class="project-video">
+  <video src="/video/royd/reaction.mp4" controls preload="metadata"></video>
+  <p class="project-video-caption">Royd receives his new wheelchair</p>
+</div>
