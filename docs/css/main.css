@@ -40,6 +40,23 @@ p {
   color: white;
 }
 
+.ribbon-strip {
+  position: relative;
+  z-index: 1;
+  margin: -24px 0;
+  box-shadow: 0 -18px 34px -12px rgba(0, 0, 0, 0.5), 0 18px 34px -12px rgba(0, 0, 0, 0.5);
+  background-image: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.035) 0px, rgba(255, 255, 255, 0.035) 2px, transparent 2px, transparent 10px);
+}
+
+#about {
+  z-index: 2;
+  margin-top: 0;
+}
+
+#cell {
+  box-shadow: 0 -18px 34px -12px rgba(0, 0, 0, 0.5), inset 0 -18px 34px -12px rgba(0, 0, 0, 0.2);
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
