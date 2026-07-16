@@ -64,6 +64,20 @@ USA
 Fees: Free
 -->
 
+## Money Order
+
+If you would like to make a donation via international money order, please
+make it payable to "Chiyambi Community Foundation" and mail it to the
+following address:
+
+Chiyambi Community Foundation  
+P.O. Box 550190  
+Katete, Zambia
+
+<!--
+Fees: Varies by provider
+-->
+
 ## Bank Transfer
 
 If you would like to make a donation via bank or wire transfer, please contact
