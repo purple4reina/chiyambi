@@ -13,9 +13,7 @@ deductible and go directly to support our programs and the people we serve.
 [Click here](https://www.paypal.com/donate/?hosted_button_id=QLPU665AR4XKY){:target="_blank"}
 to make a donation to the Chiyambi Foundation using PayPal.
 
-<!--
-Fees: 1.99% + $0.49 per transaction
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: 1.99% + $0.49 per transaction</div>
 
 ## Venmo
 
@@ -24,9 +22,7 @@ username is `@chiyambi`. Click the button below to donate now.
 
 [Donate with Venmo](https://venmo.com/chiyambi)
 
-<!--
-Fees: 1.9% + $0.10 per transaction
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: 1.9% + $0.10 per transaction</div>
 
 ## Cash App
 
@@ -35,9 +31,7 @@ username is `$chiyambi`. Click the button below to donate now.
 
 [Donate with Cash App](https://cash.app/$chiyambi)
 
-<!--
-Fees: 2.6% + $0.15 per transaction
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: 2.6% + $0.15 per transaction</div>
 
 ## Zelle
 
@@ -45,9 +39,7 @@ To donate using Zelle, log in to your bank account and select the option to
 send money to a recipient using their email address or phone number.  Our Zelle
 email address is [donate@chiyambi.org](mailto:donate@chiyambi.org).
 
-<!--
-Fees: Free
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: Free</div>
 
 ## Check
 
@@ -60,9 +52,7 @@ c/o Rey Abolofia
 Portland, OR 97212  
 USA
 
-<!--
-Fees: Free
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: Free</div>
 
 ## Money Order
 
@@ -74,15 +64,11 @@ Chiyambi Community Foundation
 P.O. Box 550190  
 Katete, Zambia
 
-<!--
-Fees: Varies by provider
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: Varies by provider</div>
 
 ## Bank Transfer
 
 If you would like to make a donation via bank or wire transfer, please contact
 us at [donate@chiyambi.org](mailto:donate@chiyambi.org) for more information.
 
-<!--
-Fees: Varies by bank
--->
+<div class="fee-note"><i class="fa fa-tag"></i> Fees: Varies by bank</div>

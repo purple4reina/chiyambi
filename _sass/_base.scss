@@ -415,6 +415,24 @@ header.header-small {
         color: darken($theme-primary, 10%);
       }
     }
+    .fee-note {
+      display: inline-flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      color: white;
+      background-color: rgba(white, 0.14);
+      border: 1px solid rgba(white, 0.3);
+      border-radius: 20px;
+      padding: 7px 18px;
+      margin: -5px 0 30px;
+      .fa {
+        margin-right: 8px;
+        color: $theme-dark;
+        font-size: 15px;
+      }
+    }
   }
   .blog-image {
     img {
