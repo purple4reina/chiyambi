@@ -454,7 +454,7 @@ header.header-small .header-content {
 .blog .blog-content .fee-note {
   display: inline-flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   letter-spacing: 0.2px;
   color: white;
@@ -468,6 +468,80 @@ header.header-small .header-content {
   margin-right: 8px;
   color: #e3c62d;
   font-size: 15px;
+}
+.blog .blog-content .donate-methods {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 40px;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .blog .blog-content .donate-methods {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .blog .blog-content .donate-methods {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.blog .blog-content .donate-method {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  padding: 28px 26px;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.blog .blog-content .donate-method:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-4px);
+}
+.blog .blog-content .donate-method h2 {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: white;
+}
+.blog .blog-content .donate-method h2 .fa {
+  color: #e3c62d;
+  margin-right: 10px;
+}
+.blog .blog-content .donate-method p {
+  font-size: 18px;
+}
+.blog .blog-content .donate-method .donate-method-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: auto;
+}
+.blog .blog-content .donate-method .btn {
+  display: block;
+  width: fit-content;
+  align-self: center;
+  margin: 0 0 6px;
+}
+.blog .blog-content .donate-method .fee-note {
+  margin: 14px 0 0;
+}
+.blog .blog-content .donate-method .mail-address {
+  display: block;
+  font-style: normal;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0.15);
+  border-left: 3px solid #e3c62d;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 16px 10px;
 }
 .blog .blog-image {
   font-size: 13px;
