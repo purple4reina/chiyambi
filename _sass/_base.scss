@@ -343,7 +343,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant(darken($theme-dark, 10%), white, white);
 }
 
 .btn-primary {
@@ -363,6 +363,48 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+    text-shadow: 0 2px 3px rgba(black, 0.3);
+    box-shadow:
+        0 8px 16px rgba(black, 0.3),
+        inset 0 2px 0 rgba(white, 0.5),
+        inset 0 -4px 8px rgba(black, 0.15);
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow:
+            0 12px 22px rgba(black, 0.35),
+            inset 0 2px 0 rgba(white, 0.5),
+            inset 0 -4px 8px rgba(black, 0.15);
+    }
+    &:active {
+        transform: translateY(1px);
+        box-shadow:
+            0 4px 8px rgba(black, 0.25),
+            inset 0 2px 0 rgba(white, 0.4),
+            inset 0 -2px 4px rgba(black, 0.15);
+    }
+}
+
+.btn-primary.btn-xl {
+    box-shadow:
+        0 8px 16px rgba(black, 0.3),
+        inset 0 2px 0 rgba(white, 0.15),
+        inset 0 -4px 8px rgba(black, 0.15);
+    &:hover {
+        box-shadow:
+            0 12px 22px rgba(black, 0.35),
+            inset 0 2px 0 rgba(white, 0.15),
+            inset 0 -4px 8px rgba(black, 0.15);
+    }
+    &:active {
+        box-shadow:
+            0 4px 8px rgba(black, 0.25),
+            inset 0 2px 0 rgba(white, 0.1),
+            inset 0 -2px 4px rgba(black, 0.15);
+    }
+}
+
+.btn-default.btn-xl {
+    text-shadow: 0 1px 1px rgba(black, 0.15);
 }
 
 // Contact

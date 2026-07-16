@@ -318,7 +318,7 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-  color: #e3c62d;
+  color: #c3a81a;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -326,7 +326,7 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle .btn-default {
-  color: #e3c62d;
+  color: #c3a81a;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -339,7 +339,7 @@ header .header-content .header-content-inner p {
 }
 .btn-default .badge {
   color: white;
-  background-color: #e3c62d;
+  background-color: #c3a81a;
 }
 
 .btn-primary {
@@ -401,6 +401,30 @@ header .header-content .header-content-inner p {
 
 .btn-xl {
   padding: 15px 30px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 -4px 8px rgba(0, 0, 0, 0.15);
+}
+.btn-xl:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35), inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 -4px 8px rgba(0, 0, 0, 0.15);
+}
+.btn-xl:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.4), inset 0 -2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary.btn-xl {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.15), inset 0 -4px 8px rgba(0, 0, 0, 0.15);
+}
+.btn-primary.btn-xl:hover {
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35), inset 0 2px 0 rgba(255, 255, 255, 0.15), inset 0 -4px 8px rgba(0, 0, 0, 0.15);
+}
+.btn-primary.btn-xl:active {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 -2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn-default.btn-xl {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 
 #contact .fa {
