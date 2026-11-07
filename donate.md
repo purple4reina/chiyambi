@@ -12,6 +12,22 @@ deductible and go directly to support our programs and the people we serve.
 
 <div class="donate-method" markdown="1">
 
+## <i class="fa fa-gift"></i> GlobalGiving
+
+Make a donation to the Chiyambi Foundation through GlobalGiving.
+
+<div class="donate-method-footer" markdown="1">
+
+[Donation at GlobalGiving](https://www.globalgiving.org/donate/105490/chiyambi-foundation/){:target="_blank" class="btn btn-default btn-lg"}
+
+<div class="fee-note"><i class="fa fa-tag"></i> <span>Fee: 8–15%<br>of each donation</span></div>
+
+</div>
+
+</div>
+
+<div class="donate-method" markdown="1">
+
 ## <i class="fa fa-paypal"></i> PayPal
 
 Make a donation to the Chiyambi Foundation using PayPal.
@@ -78,6 +94,22 @@ Zelle email address is [donate@chiyambi.org](mailto:donate@chiyambi.org).
 
 <div class="donate-method" markdown="1">
 
+## <i class="fa fa-university"></i> Bank Transfer
+
+If you would like to make a donation via bank or wire transfer, please
+contact us at [donate@chiyambi.org](mailto:donate@chiyambi.org) for more
+information.
+
+<div class="donate-method-footer" markdown="1">
+
+<div class="fee-note"><i class="fa fa-tag"></i> Fee: Varies by bank</div>
+
+</div>
+
+</div>
+
+<div class="donate-method" markdown="1">
+
 ## <i class="fa fa-envelope-o"></i> Check
 
 If you would like to make a donation via check, please make the check payable
@@ -116,22 +148,6 @@ Katete, Zambia
 <div class="donate-method-footer" markdown="1">
 
 <div class="fee-note"><i class="fa fa-tag"></i> Fee: Varies by provider</div>
-
-</div>
-
-</div>
-
-<div class="donate-method" markdown="1">
-
-## <i class="fa fa-university"></i> Bank Transfer
-
-If you would like to make a donation via bank or wire transfer, please
-contact us at [donate@chiyambi.org](mailto:donate@chiyambi.org) for more
-information.
-
-<div class="donate-method-footer" markdown="1">
-
-<div class="fee-note"><i class="fa fa-tag"></i> Fee: Varies by bank</div>
 
 </div>
 
