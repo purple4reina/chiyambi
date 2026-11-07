@@ -567,8 +567,38 @@ header.header-small {
       .btn {
         display: block;
         width: fit-content;
+        max-width: 100%;
         align-self: center;
-        margin: 0 0 6px;
+        margin: 0 0 8px;
+        padding: 12px 26px;
+        white-space: normal;
+        // Rounded rectangle, not a pill, so it doesn't look like the fee note.
+        border-radius: 10px;
+        color: darken($theme-primary, 25%);
+        background-color: $theme-dark;
+        text-shadow: 0 1px 0 rgba(white, 0.4);
+        // Raised key: hard bottom edge, soft drop shadow, top highlight.
+        box-shadow:
+            0 5px 0 darken($theme-dark, 25%),
+            0 10px 16px rgba(black, 0.3),
+            inset 0 2px 0 rgba(white, 0.5);
+        &:hover,
+        &:focus {
+            color: darken($theme-primary, 25%);
+            background-color: lighten($theme-dark, 6%);
+            transform: translateY(-2px);
+            box-shadow:
+                0 7px 0 darken($theme-dark, 25%),
+                0 14px 20px rgba(black, 0.35),
+                inset 0 2px 0 rgba(white, 0.5);
+        }
+        &:active {
+            transform: translateY(4px);
+            box-shadow:
+                0 1px 0 darken($theme-dark, 25%),
+                0 3px 6px rgba(black, 0.3),
+                inset 0 2px 0 rgba(white, 0.4);
+        }
       }
       .fee-note {
         margin: 14px 0 0;
